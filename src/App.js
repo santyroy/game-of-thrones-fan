@@ -7,7 +7,7 @@ import btn from "./play-button.png";
 function App() {
   // const audio = new Audio("/GOT.mp3");
   const [playing, setPlaying] = useState(false);
-  const [audio, setAudio] = useState(new Audio("/GOT.mp3"));
+  const [audio, setAudio] = useState(new Audio("game-of-thrones-fan/GOT.mp3"));
 
   const play = () => {
     audio.play();
