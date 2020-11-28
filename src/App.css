@@ -1,0 +1,60 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: rgb(57, 57, 57);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 57, 57, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(79, 79, 79, 1) 100%
+  );
+  color: whitesmoke;
+}
+
+.container {
+  margin: 10px 30px;
+}
+
+.container h1 {
+  text-align: center;
+  cursor: pointer;
+  margin: 50px auto;
+  width: fit-content;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container h1:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 5px 3px 3px rgb(100, 100, 100);
+  margin: 15px 10px;
+  padding: 10px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.card-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
