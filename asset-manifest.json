@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/game-of-thrones-fan/static/css/main.45594e9b.chunk.css",
-    "main.js": "/game-of-thrones-fan/static/js/main.9e0f5969.chunk.js",
-    "main.js.map": "/game-of-thrones-fan/static/js/main.9e0f5969.chunk.js.map",
+    "main.js": "/game-of-thrones-fan/static/js/main.9c890222.chunk.js",
+    "main.js.map": "/game-of-thrones-fan/static/js/main.9c890222.chunk.js.map",
     "runtime-main.js": "/game-of-thrones-fan/static/js/runtime-main.a491f03e.js",
     "runtime-main.js.map": "/game-of-thrones-fan/static/js/runtime-main.a491f03e.js.map",
     "static/js/2.423e999c.chunk.js": "/game-of-thrones-fan/static/js/2.423e999c.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/game-of-thrones-fan/index.html",
     "static/css/main.45594e9b.chunk.css.map": "/game-of-thrones-fan/static/css/main.45594e9b.chunk.css.map",
     "static/js/2.423e999c.chunk.js.LICENSE.txt": "/game-of-thrones-fan/static/js/2.423e999c.chunk.js.LICENSE.txt",
+    "static/media/GOT.73caaf27.mp3": "/game-of-thrones-fan/static/media/GOT.73caaf27.mp3",
     "static/media/avatar.2fda6558.png": "/game-of-thrones-fan/static/media/avatar.2fda6558.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a491f03e.js",
     "static/js/2.423e999c.chunk.js",
     "static/css/main.45594e9b.chunk.css",
-    "static/js/main.9e0f5969.chunk.js"
+    "static/js/main.9c890222.chunk.js"
   ]
 }
