@@ -3,11 +3,12 @@ import { characters } from "./characters";
 import avatar from "./avatar.png";
 import { useState } from "react";
 import btn from "./play-button.png";
+import song from "./audio/GOT.mp3";
 
 function App() {
   // const audio = new Audio("/GOT.mp3");
   const [playing, setPlaying] = useState(false);
-  const [audio, setAudio] = useState(new Audio("game-of-thrones-fan/GOT.mp3"));
+  const [audio, setAudio] = useState(new Audio(song));
 
   const play = () => {
     audio.play();
@@ -25,7 +26,7 @@ function App() {
     <div className="container">
       <h1 onClick={playing ? pause : play}>
         Game of Thr
-        <img src={btn} />
+        <img src={btn} alt="" />
         nes
       </h1>
 
